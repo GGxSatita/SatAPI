@@ -1,0 +1,47 @@
+{
+  "personajes": [
+    {
+      "id" : 1,
+      "nombre" : "Walter Fuse",
+      "edad" : 54,
+      "Planeta" : "Salvo"
+    },
+    {
+      "id" : 2,
+      "nombre" : "Revenant",
+      "edad" : 0,
+      "Planeta" : "Solace"
+    },
+    {
+      "id" : 3,
+      "nombre" : "Bloodhound",
+      "edad" : 0,
+      "Planeta" : "Talos"
+    },
+    {
+      "id" : 4,
+      "nombre" : "Caustic",
+      "edad" : 48,
+      "Planeta" : "Gaea"
+    },
+    {
+      "id" : 5,
+      "nombre" : "Ash",
+      "edad" : 121,
+      "Planeta" : "Unknown"
+    },
+    {
+      "id" : 6,
+      "nombre" : "Loba Andrade",
+      "edad" : 34,
+      "Planeta" : "Unknown"
+    },
+    {
+      "id" : 7,
+      "nombre" : "Valkyrie",
+      "edad" : 30,
+      "Planeta" : "Angelia"
+    }
+
+  ]
+}
