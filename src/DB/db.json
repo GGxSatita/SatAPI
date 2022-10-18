@@ -1,55 +1,67 @@
 {
   "personajes": [
     {
-      "id" : 1,
-      "nombre" : "Walter Fuse",
-      "edad" : 54,
-      "planeta" : "Salvo",
-      "imagen" : "https://media.contentapi.ea.com/content/dam/apex-legends/common/season-8/fuse-page/apex-section-bg-legends-fuse-xl.jpg.adapt.320w.jpg"
-
+      "id": 1,
+      "nombre": "Walter Fuse",
+      "edad": 54,
+      "planeta": "Salvo",
+      "imagen": "https://media.contentapi.ea.com/content/dam/apex-legends/common/season-8/fuse-page/apex-section-bg-legends-fuse-xl.jpg.adapt.320w.jpg"
     },
     {
-      "id" : 2,
-      "nombre" : "Revenant",
-      "edad" : 0,
-      "planeta" : "Solace",
-      "imagen" : "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-revenant-xl.jpg.adapt.320w.jpg"
+      "id": 2,
+      "nombre": "Revenant",
+      "edad": 0,
+      "planeta": "Solace",
+      "imagen": "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-revenant-xl.jpg.adapt.320w.jpg"
     },
     {
-      "id" : 3,
-      "nombre" : "Bloodhound",
-      "edad" : 0,
-      "planeta" : "Talos",
-      "imagen" : "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-bloodhound-xl.jpg.adapt.320w.jpg"
+      "id": 3,
+      "nombre": "Bloodhound",
+      "edad": 0,
+      "planeta": "Talos",
+      "imagen": "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-bloodhound-xl.jpg.adapt.320w.jpg"
     },
     {
-      "id" : 4,
-      "nombre" : "Caustic",
-      "edad" : 48,
-      "planeta" : "Gaea",
-      "imagen" : "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-caustic-xl.jpg.adapt.320w.jpg"
+      "id": 4,
+      "nombre": "Caustic",
+      "edad": 48,
+      "planeta": "Gaea",
+      "imagen": "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-caustic-xl.jpg.adapt.320w.jpg"
     },
     {
-      "id" : 5,
-      "nombre" : "Ash",
-      "edad" : 121,
-      "planeta" : "Unknown",
-      "imagen" : "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/ash/apex-section-bg-legends-ash-xl.jpg.adapt.320w.jpg"
+      "id": 5,
+      "nombre": "Ash",
+      "edad": 121,
+      "planeta": "Unknown",
+      "imagen": "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/ash/apex-section-bg-legends-ash-xl.jpg.adapt.320w.jpg"
     },
     {
-      "id" : 6,
-      "nombre" : "Loba Andrade",
-      "edad" : 34,
-      "planeta" : "Unknown",
-      "imagen" : "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-loba-xl.jpg.adapt.320w.jpg"
+      "id": 6,
+      "nombre": "Loba Andrade",
+      "edad": 34,
+      "planeta": "Unknown",
+      "imagen": "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-loba-xl.jpg.adapt.320w.jpg"
     },
     {
-      "id" : 7,
-      "nombre" : "Valkyrie",
-      "edad" : 30,
-      "planeta" : "Angelia",
-      "imagen" : "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/valkyrie/apex-section-bg-legends-valkyrie-xl.jpg.adapt.320w.jpg"
+      "id": 7,
+      "nombre": "Valkyrie",
+      "edad": 30,
+      "planeta": "Angelia",
+      "imagen": "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/valkyrie/apex-section-bg-legends-valkyrie-xl.jpg.adapt.320w.jpg"
+    },
+    {
+      "imagen": "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-pathfinder-xl.jpg.adapt.320w.jpg",
+      "nombre": "Pathfinder",
+      "planeta": "0",
+      "edad": "tierra",
+      "id": 8
+    },
+    {
+      "imagen": "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-gibraltar-xl.jpg.adapt.320w.jpg",
+      "nombre": "Gilbratar",
+      "planeta": "30",
+      "edad": "Solace",
+      "id": 9
     }
-
   ]
 }

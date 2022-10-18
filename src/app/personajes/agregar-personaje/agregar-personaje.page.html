@@ -1,9 +1,23 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>agregar-personaje</ion-title>
+    <ion-title>Agregar Personaje</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-row>
+    <ion-col>
+      <ion-card>
+        <ion-card-content>
+          <ion-input type="text" placeholder="Ingrese Nombre" #nombre></ion-input>
+          <ion-input type="number" placeholder="Ingrese edad" #edad></ion-input>
+          <ion-input type="text" placeholder="Ingrese planeta" #planeta></ion-input>
+          <ion-input type="text" placeholder="http://imagenurl.com" #imagen></ion-input>
+          <ion-button color="success" (click)="agregarNuevoPersonaje(nombre, imagen,edad,planeta)">
+            Guardar
+          </ion-button>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+  </ion-row>
 </ion-content>
