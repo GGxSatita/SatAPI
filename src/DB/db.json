@@ -4,43 +4,51 @@
       "id" : 1,
       "nombre" : "Walter Fuse",
       "edad" : 54,
-      "Planeta" : "Salvo"
+      "planeta" : "Salvo",
+      "imagen" : "https://media.contentapi.ea.com/content/dam/apex-legends/common/season-8/fuse-page/apex-section-bg-legends-fuse-xl.jpg.adapt.320w.jpg"
+
     },
     {
       "id" : 2,
       "nombre" : "Revenant",
       "edad" : 0,
-      "Planeta" : "Solace"
+      "planeta" : "Solace",
+      "imagen" : "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-revenant-xl.jpg.adapt.320w.jpg"
     },
     {
       "id" : 3,
       "nombre" : "Bloodhound",
       "edad" : 0,
-      "Planeta" : "Talos"
+      "planeta" : "Talos",
+      "imagen" : "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-bloodhound-xl.jpg.adapt.320w.jpg"
     },
     {
       "id" : 4,
       "nombre" : "Caustic",
       "edad" : 48,
-      "Planeta" : "Gaea"
+      "planeta" : "Gaea",
+      "imagen" : "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-caustic-xl.jpg.adapt.320w.jpg"
     },
     {
       "id" : 5,
       "nombre" : "Ash",
       "edad" : 121,
-      "Planeta" : "Unknown"
+      "planeta" : "Unknown",
+      "imagen" : "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/ash/apex-section-bg-legends-ash-xl.jpg.adapt.320w.jpg"
     },
     {
       "id" : 6,
       "nombre" : "Loba Andrade",
       "edad" : 34,
-      "Planeta" : "Unknown"
+      "planeta" : "Unknown",
+      "imagen" : "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/apex-section-bg-legends-loba-xl.jpg.adapt.320w.jpg"
     },
     {
       "id" : 7,
       "nombre" : "Valkyrie",
       "edad" : 30,
-      "Planeta" : "Angelia"
+      "planeta" : "Angelia",
+      "imagen" : "https://media.contentapi.ea.com/content/dam/apex-legends/common/legends/valkyrie/apex-section-bg-legends-valkyrie-xl.jpg.adapt.320w.jpg"
     }
 
   ]

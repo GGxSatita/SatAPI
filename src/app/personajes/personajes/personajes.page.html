@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>personajes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let personaje of personajes">
+      <ion-avatar slot="start">
+        <ion-img [src]="personaje.imagen"></ion-img>
+      </ion-avatar>
+      <ion-label>{{personaje.nombre}}</ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-fab vertical="botton" horizontal="end">
+    <ion-fab-button (click)="agregarPersonaje">
+    <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>
