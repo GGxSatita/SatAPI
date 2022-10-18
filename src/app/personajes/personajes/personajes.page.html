@@ -6,7 +6,7 @@
 
 <ion-content>
   <ion-list>
-    <ion-item *ngFor="let personaje of personajes">
+    <ion-item *ngFor="let personaje of personajes" [routerLink]="['/personajes, personaje.id']">
       <ion-avatar slot="start">
         <ion-img [src]="personaje.imagen"></ion-img>
       </ion-avatar>
@@ -15,7 +15,7 @@
   </ion-list>
 
   <ion-fab vertical="botton" horizontal="end">
-    <ion-fab-button (click)="agregarPersonaje">
+    <ion-fab-button (click)="agregarPersonaje()">
     <ion-icon name="add"></ion-icon>
     </ion-fab-button>
   </ion-fab>

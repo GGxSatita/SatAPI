@@ -15,8 +15,15 @@ export class PersonajeService {
     return this.http.get<any>(this.url)
   }
 
-  agregarPersonaje(personaje: Personaje): Observable <any> {
+  agregarPersonaje(personaje:Personaje): Observable <any> {
     return this.http.post(this.url, personaje)
   }
 
+  cargarPersonaje(id:string):Observable<any> {
+    return this.http.get(this.url+id)
+  }
+
+  eliminarPersonaje(id:string):Observable<any>{
+    return this.http.delete(this.url+id)
+  }
 }

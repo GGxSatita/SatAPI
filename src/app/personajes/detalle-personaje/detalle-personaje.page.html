@@ -1,9 +1,30 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>detallePersonaje</ion-title>
+    <ion-button slot="start">
+      <ion-back-button defaultHref="/personajes"></ion-back-button>
+    </ion-button>
+    <ion-title>{{ personaje.nombre }}</ion-title>
+
+    <ion-button slot="end">
+      <ion-button (click)="eliminarPersonaje()">
+        <ion-icon name="trash-outline"></ion-icon>
+      </ion-button>
+    </ion-button>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <ion-grid class="ion-no-padding">
+    <ion-row>
+      <ion-col>
+        <ion-img [src]="personaje.imagen"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <h1 class="ion-text-center">{{ personaje.nombre }}</h1>
+      </ion-col>
+    </ion-row>
 
+  </ion-grid>
 </ion-content>

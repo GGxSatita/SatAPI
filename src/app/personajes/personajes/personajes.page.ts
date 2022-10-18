@@ -34,4 +34,5 @@ export class PersonajesPage implements OnInit {
     this.router.navigate(['/agregar-personaje'])
   }
 
+
 }
